@@ -1,5 +1,4 @@
-# ps-vmhost-firewall
-Set VMhost Firewall 
+# Set-VMhost-Firewall
 
 This function is used for updating ESXi Host Firewall with multiple IPs and Networks without ESXCLI
 
