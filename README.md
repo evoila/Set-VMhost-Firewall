@@ -7,6 +7,7 @@ This function is used for updating ESXi Host Firewall with multiple IPs and Netw
 
 Get-VMHost -Name <esxi> | Set-VMHost-Firewall -Service "sshServer" -IPSet @("10.0.0.0/8", "192.168.0.0/16")
 
+
   
 $services = @("webAccess","vSphereClient","sshServer","ntpClient")
 
